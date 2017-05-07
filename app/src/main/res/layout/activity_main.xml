@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Aqua"
+    tools:context="com.example.saurav.loginscreen.MainActivity">
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:background="@color/White"
+        android:layout_marginTop="100dp"
+        />
+    <EditText
+        android:id="@+id/ps"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:layout_below="@+id/em"
+        android:background="@color/White"
+        android:layout_marginTop="10dp"
+        />
+
+   <Button
+       android:id="@+id/log"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Login"
+       android:textColor="@color/Aqua"
+       android:layout_below="@+id/ps"
+       android:layout_marginTop="10dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/log"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+        android:textColor="@color/White"
+        android:text="Not a Member ? Sign Up Now"
+
+        />
+
+
+</RelativeLayout>
+
+
+
